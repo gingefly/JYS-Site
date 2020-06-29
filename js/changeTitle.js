@@ -7,7 +7,7 @@ function() {
         clearTimeout(titleTime)
     } else {
         $('[rel="shortcut icon"]').attr("href", "//www.ihewro.com/favicon.ico");
-        document.title = "(/≧▽≦/) 你回来啦! | " + OriginTitile;
+        document.title = "(/≧▽≦/) 你回来啦! ";
         titleTime = setTimeout(function() {
             document.title = OriginTitile
         },
